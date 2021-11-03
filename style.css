@@ -1,0 +1,61 @@
+/* Your board style here */
+body {
+  background: linear-gradient(to right, rgba(178, 34, 34, 0.5), rgba(178, 34, 34, 1));
+}
+h1 {
+  color: goldenrod;
+}
+.race-container {
+  padding: 0 2rem;
+}
+td {
+  background-color: slategray;
+}
+
+.racer-table td {
+  height: 40px;
+  width: 20px;
+}
+.racer-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1-race td.active {
+  background-image: url("images/player_1.png");
+}
+#player2-race td.active {
+  background-image: url("images/player_2.png");
+}
+
+.player-keys {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.key-1, .key-2 {
+  margin-right: 2rem;
+}
+
+.finish {
+  background-image: url("images/finish.png");
+  background-size: contain;
+}
+
+.winner-screen {
+  text-align: center;
+}
+.winner-1 {
+  display: none;
+}
+.winner-2 {
+  display: none;
+}
+.button {
+  display: none;
+  margin: 0 auto;
+}
+.winner-screen span {
+  font-size: 4rem;
+  color: goldenrod;
+}
